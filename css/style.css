@@ -1,0 +1,161 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+*:hover {
+  outline: 0;
+}
+
+.main-container {
+  background-color: #1a170f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  /* padding-inline: 1.5rem; */
+  min-height: 100vh;
+}
+
+.calc-cont {
+  background: white;
+  border-radius: 10px;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.3));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 2rem;
+  padding-block: 2rem;
+  min-width: 350px;
+  max-width: 7rem;
+  height: 100%;
+}
+
+.btn-wrapper {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.btn-wrapper button {
+  border: 0;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.3));
+  background: #94a3b8;
+  color: white;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  height: 3.5rem;
+  width: 100%;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.btn-wrapper button:hover {
+  background: #64748b;
+}
+
+.btn-wrapper button:active {
+  background: #475569;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+.btn-wrapper button:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.3));
+}
+
+.btn-wrapper .special-btn {
+  background: #38bdf8;
+}
+
+.btn-wrapper .special-btn:hover {
+  background: #0284c7;
+}
+
+.btn-wrapper .destroy-btn {
+  background: #ef4444;
+}
+
+.btn-wrapper .destroy-btn:hover {
+  background: #dc2626;
+}
+
+.btn-wrapper .res-btn {
+  background: #14b8a6;
+}
+
+.btn-wrapper .res-btn:hover {
+  background: #0d9488;
+}
+
+.screen-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+  background: #e2e8f0;
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  height: 12rem;
+  padding-inline: 7%;
+  padding-block: 1rem;
+}
+
+.screen input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#screen-calc {
+  font-size: 1.5rem;
+  width: 100%;
+  height: 60%;
+}
+
+.screen label {
+  text-align: right;
+}
+
+#res-screen {
+  width: 100%;
+  height: 70%;
+  text-align: right;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
