@@ -1,7 +1,6 @@
 import {
   clearScreen,
   delCharacter,
-  getResult,
   insertValue,
   getResultOptionTwo,
 } from "../lib/basic.js";
