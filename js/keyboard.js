@@ -72,3 +72,5 @@ const configKeyboard = () => {
 };
 
 export { configKeyboard };
+
+// by Gutmanndev

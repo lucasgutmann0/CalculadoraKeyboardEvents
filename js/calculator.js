@@ -43,3 +43,5 @@ export const configSpecialButtons = () => {
     elem.addEventListener("click", q.func);
   });
 };
+
+// by Gutmanndev

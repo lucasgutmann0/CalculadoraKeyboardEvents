@@ -1,3 +1,4 @@
+/* by Gutmanndev */
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -65,7 +66,7 @@
 
 .btn-wrapper button:active {
   background: #475569;
-  box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .btn-wrapper button:hover {
@@ -111,7 +112,7 @@
   align-items: center;
   justify-content: center;
   border: 0;
-  box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
   background: #e2e8f0;
   font-family: "Font Awesome 5 Free";
   font-size: 1.5rem;
@@ -158,4 +159,17 @@
 .col {
   display: flex;
   flex-direction: column;
+}
+
+.gutmann {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: rgba(100, 100, 100, 0.3);
+  transition: all;
+  transition-duration: 0.4s;
+}
+
+.gutmann:hover {
+  color: rgba(100, 100, 100, 0.8);
 }

@@ -1,3 +1,4 @@
+// by Gutmanndev
 import { configBasicButtons, configSpecialButtons } from "./calculator.js";
 import { configKeyboard } from "./keyboard.js";
 
